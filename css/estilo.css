@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap'); /*importação de fonte usando google fonts*/
 @font-face {
     font-family: 'FonteLogo'; /*Usar aspas simples para indicar o nome da font family*/
-    src: url("../_fonts/bubblegum-sans-regular.otf"); /*lembrar que se o caminho da pasta for anterior a pasta no arquivo do código usar .. para voltar ao indicar o path*/
+    src: url("../fonts/bubblegum-sans-regular.otf"); /*lembrar que se o caminho da pasta for anterior a pasta no arquivo do código usar .. para voltar ao indicar o path*/
 } /*marca que importa fonte para o código css a partir de uma fonte no pacote local*/
 
 body {
@@ -32,7 +32,7 @@ header#cabecalho img#icone{
 header#cabecalho {
     border-bottom: 1px #606060 solid; /*Define uma linha para borda, no caso em baixo*/
     height: 150px; /*altura do cabeçalho*/
-    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 20px 95px; /*define uma imagem como background, sem repetição e a distancia de x e y em pixel para a imagem*/
+    background: url("../imagens/glass-logo-peq.jpg") no-repeat 20px 95px; /*define uma imagem como background, sem repetição e a distancia de x e y em pixel para a imagem*/
 }
 
 header#cabecalho h1{
