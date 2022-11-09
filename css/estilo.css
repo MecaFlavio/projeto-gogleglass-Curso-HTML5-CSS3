@@ -143,3 +143,41 @@ footer#rodape {
 footer#rodape p{
     text-align: center;
 }
+
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px; /*Define o espaçamento entre bordas*/
+    margin-left: auto; /*margin Define o espaço esterno do objeto*/
+    margin-right: auto;
+}
+
+table#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+}
+
+table#tabelaspec td.ce{
+    color: #ffffff;
+    background-color: #888888;
+    vertical-align: top;
+}
+
+table#tabelaspec td.cd{
+    background-color: #cecece;
+}
+
+table#tabelaspec caption{
+    color: #888888;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+table#tabelaspec caption span{
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
+
+}
