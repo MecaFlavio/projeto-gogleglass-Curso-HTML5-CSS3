@@ -34,63 +34,67 @@
             </header>
             
             <section id="corpo"> <!--Tag para criar uma sessão no html5-->
-                <hgroup> 
-                    <h3>Tecnologia > Inovações</h3>
-                    <h1>Saiba tudo sobre o Google Glass</h1>
-                    <h2>por Gustavo Guanabara</h2>
-                    <h4>Atualizado em 23/Abril/2013</h4>
-                </hgroup>    
-                
-                <h2>O que é</h2>
-                <!-- A tag <p> define o que é um paragrafo -->
-                <!-- A tag <br/> é usada para quebra de linhas, cada tag realiza uma quebra de linha -->
-                <!-- A tag <wbr/> realiza a quebra de palavras, mais usado em quebras de pontuação(ponto e hífen) -->
-                <!-- &shy; é uma marca que realiza a hifenização de uma palavra, mais usado para quebras de palavras grandes -->
-                <!-- &nbsp; é uma marca que realiza espaços em branco na meu texto html -->
-                <!-- A tag <b> deixa o trecho negrito -->
-                <!-- A tag <i> ou <em> deixa o trecho em itálico, existe uma diferença semântica entra as duas, a tag <em> indica aos navegadores que o termo é enfatizado -->
-                <!-- A tag <u> sublinha o texto, algumas tags de formatação não estão sendo mais usadas -->
-                <!-- É possível editar trecho de textos com a tag <span>, a maneira correta em HTML5 é através do parâmetro style nas tags -->
-                <!-- O parâmetro style="text-decoration" da tag span possui varias formas de trabalhar com formatação-->
-                <!-- O parâmetro style="font_weight" indica qual a quantidade de negrito que o texto vai ter, bold, bolder, un nível entre 100 e 900-->
-                <!-- O parâmetro style="text-align" realiza o alinhamento do texto, ex. <p style="text-align: justify; text-indent: 50px;">-->
-                <!-- A tag <a> cria uma ancora e é possível adicionar hiperlinks com o parâmetro href, e o parâmetro target pode ser usado para abrir esse link em outra aba-->
-                <p> O <span style="font-weight: bold;">Google Glass</span> é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em <u>realidade aumentada</u>. Também chamado de <a href="https://www.google.com/glass/start/" target="_blank">Project Glass</a>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeo&shy;conferên&shy;cias.</p>
-                <p>Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o <em>Google Glass</em> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-<wbr/>furto e de desbloqueio de tela para o acessório.</p> 
-                
-                <!--tag que da um sentido semântico a a imagem, ajuda a dar sentido a imagem e aos mecanismos de busca -->
-                <figure class="foto-legenda"> <!--parâmetro class cria uma classe para a tag-->
-                    <img src="imagens/glass-quadro-homem-mulher.jpg"/>
-                    <figcaption> <!-- cria legenda para imagens-->
-                        <h3> Google Glass</h3>
-                        <p>Uma nova maneira de ver o mundo</p>
-                    </figcaption>
-                </figure>
+                <article id="noticia-principal">
+                    <header id="cabecalho-artigo">
+                        <hgroup> 
+                            <h3>Tecnologia > Inovações</h3>
+                            <h1>Saiba tudo sobre o Google Glass</h1>
+                            <h2>por Gustavo Guanabara</h2>
+                            <h3 class="direita">Atualizado em 23/Abril/2013</h3>
+                        </hgroup>
+                    </header>    
+                    
+                    <h2>O que é</h2>
+                    <!-- A tag <p> define o que é um paragrafo -->
+                    <!-- A tag <br/> é usada para quebra de linhas, cada tag realiza uma quebra de linha -->
+                    <!-- A tag <wbr/> realiza a quebra de palavras, mais usado em quebras de pontuação(ponto e hífen) -->
+                    <!-- &shy; é uma marca que realiza a hifenização de uma palavra, mais usado para quebras de palavras grandes -->
+                    <!-- &nbsp; é uma marca que realiza espaços em branco na meu texto html -->
+                    <!-- A tag <b> deixa o trecho negrito -->
+                    <!-- A tag <i> ou <em> deixa o trecho em itálico, existe uma diferença semântica entra as duas, a tag <em> indica aos navegadores que o termo é enfatizado -->
+                    <!-- A tag <u> sublinha o texto, algumas tags de formatação não estão sendo mais usadas -->
+                    <!-- É possível editar trecho de textos com a tag <span>, a maneira correta em HTML5 é através do parâmetro style nas tags -->
+                    <!-- O parâmetro style="text-decoration" da tag span possui varias formas de trabalhar com formatação-->
+                    <!-- O parâmetro style="font_weight" indica qual a quantidade de negrito que o texto vai ter, bold, bolder, un nível entre 100 e 900-->
+                    <!-- O parâmetro style="text-align" realiza o alinhamento do texto, ex. <p style="text-align: justify; text-indent: 50px;">-->
+                    <!-- A tag <a> cria uma ancora e é possível adicionar hiperlinks com o parâmetro href, e o parâmetro target pode ser usado para abrir esse link em outra aba-->
+                    <p> O <span style="font-weight: bold;">Google Glass</span> é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em <u>realidade aumentada</u>. Também chamado de <a href="https://www.google.com/glass/start/" target="_blank">Project Glass</a>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeo&shy;conferên&shy;cias.</p>
+                    <p>Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o <em>Google Glass</em> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-<wbr/>furto e de desbloqueio de tela para o acessório.</p> 
+                    
+                    <!--tag que da um sentido semântico a a imagem, ajuda a dar sentido a imagem e aos mecanismos de busca -->
+                    <figure class="foto-legenda"> <!--parâmetro class cria uma classe para a tag-->
+                        <img src="imagens/glass-quadro-homem-mulher.jpg"/>
+                        <figcaption> <!-- cria legenda para imagens-->
+                            <h3> Google Glass</h3>
+                            <p>Uma nova maneira de ver o mundo</p>
+                        </figcaption>
+                    </figure>
 
-                <h2>Data de lançamento</h2>
-                <p>Não há uma data específica e oficial para o dispositivo ser lançado, ainda. Pode ser que ele esteja disponível em demonstrações a partir de 2013, mas seu lançamento para as lojas fica para, pelo menos, 2014.</p>
+                    <h2>Data de lançamento</h2>
+                    <p>Não há uma data específica e oficial para o dispositivo ser lançado, ainda. Pode ser que ele esteja disponível em demonstrações a partir de 2013, mas seu lançamento para as lojas fica para, pelo menos, 2014.</p>
 
-                <h2>Especificações Técnicas</h2>
-                <table id="tabelaspec"> <!--Tag que cria tabelas-->
-                <caption>Tabela Técnica do Google Glass <span>Mar/2013</span></caption> <!--Tag que cria titulo para algo, no caso para o elemento table-->
-                <!--<tr> é uma tag para table row, define uma linha na tabela
-                    <td> é uma tag para criar uma célula em uma linha de uma tabela
-                    <tr rowspan> expande a linha conforme o numero indicado, assim como o <td colspan> expande a coluna que o dado ocupa 
-                    cada objeto pode ter seu ID, mas a mesma classe pode ser inserida em vários objetos-->
-                <tr><td class="ce">Tela</td><td class="cd">Resolução equivalente a tela de 25"</td></tr>
-                <tr><td rowspan="2" class="ce">Camera</td><td class="cd"> 5MP para fotos</td></tr>
-                <tr><td class="cd">720p para vídeos</td></tr>
-                <tr><td rowspan="2" class="ce">Conectividade</td><td class="cd">Wi-Fi</td>
-                <tr><td class="cd">Bluetooth</td></tr>
-                <tr><td class="ce">Memória Interna</td><td class="cd">12GB</td></tr>
-                </table>
-                <h2>Como funciona</h2>
-                <p>De acordo com fontes próximas do Google, os óculos vão contar com uma pequena tela de LCD ou AMOLED na parte superior e em frente aos olhos do usuário. Com o uso de uma câmera e GPS, você pode se situar, assim como selecionar opções com o movimento da cabeça</p>
+                    <h2>Especificações Técnicas</h2>
+                    <table id="tabelaspec"> <!--Tag que cria tabelas-->
+                        <caption>Tabela Técnica do Google Glass <span>Mar/2013</span></caption> <!--Tag que cria titulo para algo, no caso para o elemento table-->
+                        <!--<tr> é uma tag para table row, define uma linha na tabela
+                            <td> é uma tag para criar uma célula em uma linha de uma tabela
+                            <tr rowspan> expande a linha conforme o numero indicado, assim como o <td colspan> expande a coluna que o dado ocupa 
+                            cada objeto pode ter seu ID, mas a mesma classe pode ser inserida em vários objetos-->
+                        <tr><td class="ce">Tela</td><td class="cd">Resolução equivalente a tela de 25"</td></tr>
+                        <tr><td rowspan="2" class="ce">Camera</td><td class="cd"> 5MP para fotos</td></tr>
+                        <tr><td class="cd">720p para vídeos</td></tr>
+                        <tr><td rowspan="2" class="ce">Conectividade</td><td class="cd">Wi-Fi</td>
+                        <tr><td class="cd">Bluetooth</td></tr>
+                        <tr><td class="ce">Memória Interna</td><td class="cd">12GB</td></tr>
+                    </table>
+                    <h2>Como funciona</h2>
+                    <p>De acordo com fontes próximas do Google, os óculos vão contar com uma pequena tela de LCD ou AMOLED na parte superior e em frente aos olhos do usuário. Com o uso de uma câmera e GPS, você pode se situar, assim como selecionar opções com o movimento da cabeça</p>
 
-                <h2>O que você pode fazer com o Google Glasses</h2>
-                <p>O vídeo de divulgação do Google mostra que você pode se transformar em uma espécie de “super-<wbr/>humano”, já que o aparelho pode indicar a quantos metros você está de seu destino, se o metrô está aberto ou fechado, mostrar o clima, agenda e até mesmo permitir que você marque encontros apenas com comandos de voz.</p>
+                    <h2>O que você pode fazer com o Google Glasses</h2>
+                    <p>O vídeo de divulgação do Google mostra que você pode se transformar em uma espécie de “super-<wbr/>humano”, já que o aparelho pode indicar a quantos metros você está de seu destino, se o metrô está aberto ou fechado, mostrar o clima, agenda e até mesmo permitir que você marque encontros apenas com comandos de voz.</p>
 
-                [AQUI ENTRA UM VÍDEO]
+                    [AQUI ENTRA UM VÍDEO]
+                </article>
             </section>
             
             <aside id="lateral"> <!--Tag para criar uma sessão lateral ao conteúdo determinado principal-->
